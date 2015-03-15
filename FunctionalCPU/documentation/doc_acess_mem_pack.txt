@@ -1,0 +1,17 @@
+
+file: documentation of mem_acess_pack.vhd
+Type: package
+Functions and Procedures:
+
+--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%---
+-- The package mem_access_pack declares procedures for loading and storing data in the memory block
+--  i) procedure c_ldc loads the data from the memory block with address PC and saves the data to Reg(X)
+-- ii) procedure c_ldd loads the data from the memory block with address saved in memory(PC) and saves the data to Reg(X)
+--iii) procedure c_ldr loads the data from the memory block with address saved in Reg(Y) and saves the data to Reg(X)
+-- iv) procedure c_std stores the content of Reg(X) in the memory block with address memory(PC)
+--  v) procedure c_str stores the content of Reg(X) in the memory block with address saved in Reg(Y)
+-- vi) procedure SetFlagsLoad sets/clears the Flags (Zero, Negative, Overflow) using the data
+-- in i), ii) and iv) PC is incremented by 1
+--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%---
+
+

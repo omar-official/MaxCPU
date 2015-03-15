@@ -1,0 +1,68 @@
+procedures :
+"ROR": input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function:  a logical shift is a bitwise operation that shifts all the bits of its operand. The two base variants are the logical left shift and the logical right shift 
+                      7 6 5 4 3 2 1 o c
+      Example: input :0|0|0|1|0|1|1|1|1
+               output:1|0|0|0|1|0|1|1|1| 
+
+
+"ROL": input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function:  procedure EXEC_ROL  Rotate the value registered in Reg(Y) left by one bit and assign the result to Reg(X)
+                     
+                      7 6 5 4 3 2 1 0 
+      Example: input :0|0|0|1|0|1|1|1
+               output:0|0|1|0|1|1|1|0 
+
+
+"RORC": input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function:  procedure EXEC_ROLC Rotate the value registered in Reg(Y) left by one bit through Carry and assign the result to X
+                     
+                      7 6 5 4 3 2 1 0 c
+      Example: input :0|0|0|1|0|1|1|1|1
+               output:1|0|0|0|1|0|1|1|1 
+
+
+
+
+"SRL": input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function: procedure EXEC_SRL  Shift the value registered in Reg(Y) right by one bit and assign the result to Reg(X)
+                        
+                            7 6 5 4 3 2 1 0 
+      Example: input :      0|0|0|1|0|1|1|1
+               output:  0--> 0|0|0|0|1|0|1|1 
+
+"SLL":  input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function: procedure EXEC_SLL  Shift the value registered in Reg(Y) left by one bit and assign the result to Reg(X)
+                        
+                            7 6 5 4 3 2 1 0 
+      Example: input :      0|0|0|1|0|1|1|1
+               output:      0|0|1|0|1|1|1|0 <--0
+
+
+
+"SRA":  input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function: procedure EXEC_SRA  Shift the value registered in Reg(Y) right by one bit through Carry and assign the result to Reg(X)
+                            7 6 5 4 3 2 1 0 
+      Example: input :      0|0|0|1|0|1|1|1
+               output:      0|0|1|0|1|1|1|0 <--0
+
+
+
+
+--   procedure EXEC_SRL  Shift the value registered in Reg(Y) left by one bit and assign the result to Reg(X)
+
+--  procedure EXEC_SRA  Shift the value registered in Reg(Y) left by one bit through Carry and assign the result to Reg(X)
+
+-- procedure EXEC_ROL  Rotate the value registered in Reg(Y) left by one bit and assign the result to Reg(X)
+
+--  procedure EXEC_ROLC Rotate the value registered in Reg(Y) left by one bit through Carry and assign the result to X
+
+--   package bit_vector_natural_pack is used for conversion from natural to bit_vector and vice-versa
+
+--  packages cpu_defs_pack and bit_vector_natural_pack are needed

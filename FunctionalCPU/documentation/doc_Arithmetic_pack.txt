@@ -1,0 +1,24 @@
+documentation of some procedures in arithmetic_pack:
+
+
+"ADDC":  input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function: procedure EXEC_ADDC :adding two integers A and B with considering the Carry bit 
+
+      Example:     1 0 0 1
+                   1 0 1 1
+               c:  0 1 1 0
+                 ----------
+                 0 1 1 0 0
+
+"SUBC":input : A (reg_y), output : B (reg_x) .
+      Flags: z, c, n ,o 
+      Function: procedure EXEC_SUBC : substructing two integers A and B with considring the Carry bit  
+
+      Example: 1 0 0 1
+               1 0 1 1
+           c:  1 1 0 0
+              ----------
+         11111 1 1 1 0
+
+

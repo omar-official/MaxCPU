@@ -1,0 +1,4 @@
+2049  : Result in Hexadecimal #801
+2048  : Result in Hexadecimal #800
+1023  : Result in Hexadecimal #3FF
+1024  : Result in Hexadecimal #400

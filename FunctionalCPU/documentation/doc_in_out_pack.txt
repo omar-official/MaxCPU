@@ -1,0 +1,10 @@
+documentation of package In_Out
+
+procedure INi( variable f: in text;   variable s: out data_type) 
+this procedure has the task to read a line from the file (IOInput.txt: containes data_type) und put it  into a register( Register s: will be given when we call this procedure)
+
+
+procedure OUTi(  variable f: out text;  variable s: in data_type) 
+
+this procedure has the Task to write the Containe of a Register (Register s will be given when we call this procedure) und writte it into a file (IOOutput.txt)
+

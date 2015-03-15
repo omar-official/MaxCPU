@@ -1,0 +1,57 @@
+C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/ClkGen_pack.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/ClkGen_pack.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling package ClkGen_pack
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/D_FFaR.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/D_FFaR.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity D_FFaR
+-- Compiling architecture RTL1 of D_FFaR
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/O_device.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/O_device.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity I_device
+-- Compiling architecture RTL of I_device
+** Warning: C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/O_device.vhd(56): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/RstGen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/RstGen.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity RstGen
+-- Compiling architecture dataflow of RstGen
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/D_REG12RE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/D_REG12RE.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity D_REG12RE
+-- Compiling architecture RTL of D_REG12RE
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/I_device.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/I_device.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity I_device
+-- Compiling architecture RTL of I_device
+** Warning: C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/I_device.vhd(57): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/ClkGen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/ClkGen.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity ClkGen
+-- Compiling architecture dataflow of ClkGen
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/Memory.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling entity Memory
+-- Compiling architecture rtl of Memory
+
+} {} {}} C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/RstGen_pack.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Omar/Desktop/entwurf-digitale-systeme/RTLCPU/RstGen_pack.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Compiling package RstGen_pack
+
+} {} {}}

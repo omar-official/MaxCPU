@@ -1,0 +1,16 @@
+
+documentation of package file_in_memory
+
+procedure init_memory( variable f:in text;variable mem :out mem_type);
+this procedure  has the task to read the file (Memory.txt)which containes the assembly code und put them into an array (array is considert here as our memory) 
+
+
+ documentation of package dump_memory_pack
+
+procedure dump_memory(  variable Memory: in mem_type; variable DumpFile: out text) 
+this procedure has the task to read a Memory und write the containe of this memory into a file (Dump.txt)
+
+ 
+
+
+
